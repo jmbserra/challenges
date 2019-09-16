@@ -11,7 +11,11 @@
     - properties:
         here you can find the database properties including the .sql file.
         
-- The project must run on a local server, at the path "GOMAchallenge_jserra/clients_list_app_public/index.php" and for this i used XAMPP.
+- The project must run on a local server and for this i used XAMPP.
+
+- Install XAMPP
+- Place  the "GOMA-challenge-JoseSerra" folder at "xampp/htdocs" in order to run it on the XAMPP apache server
+- run localhost/GOMAchallenge_JoseSerra/clients_list_app_public/
 
 # Technologies used:
   - Html, CSS
