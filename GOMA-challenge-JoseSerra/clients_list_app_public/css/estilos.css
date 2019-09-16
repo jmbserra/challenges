@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+/*GENERAL SETTINGS*/
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+ body {
+	font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+	height: 100%;
+ 	position: relative;
+}
+
+a { 
+	color: #00AEEF;
+	font-size: 14px;
+}
+
+a:hover {
+	color: #FFF;
+	background:#00AEEF;
+}
+
+/*LAYOUT HEADER AREA*/
+
+#header-area {
+	width: 1150px;
+	margin: 0 auto;
+}
+
+#header-area a {
+	background: #FFFFFF;
+}
+
+#logo-area {
+	float: left;
+	padding: 20px;
+}
+
+#header-clients-text {
+	font-size:  32px; 
+	color: #00AEEF;
+	text-align: right;
+	font-weight: bold;
+	float: right;
+	padding-top: 70px;
+}
+
+#content-area {
+	clear: both;
+	width: 1150px;
+	margin: 0 auto;	
+}
+
+#welcome-area {
+	font-weight: bold;	
+	text-align: center;
+	padding-top: 50px;
+	font-size: 22px; 
+	color: #00AEEF; 
+}
+
+.welcome-paragraph {
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	color: #4A4A4A;
+	line-height: 22px; 
+	padding-bottom: 20px;
+}
+
+/*POSITIONING*/
+
+.left
+{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+/*PARTE FORMULARIO*/
+
+#form-area {
+	font-weight: bold;	
+	text-align: center;
+	padding-top: 100px;
+	font-size: 22px; 
+	color: #00AEEF; 
+	background: #F5FCFF;
+}
+
+.info-input-header {
+	font-weight: normal;
+	font-size: 14px;  
+	text-align: left;
+}
+
+
+input[type=text], select {
+  border-radius: 8px; 
+}
+
+input[type=email], select { 
+	border-radius: 8px;
+  }
+
+#footer-area {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-weight: bold;	
+	text-align: center;
+	padding: 40px;
+	font-size: 16px;
+	color:#00AEEF; 
+	background-color:#D0D0D0;
+}
+
+#footer-area a {
+	color: #00AEEF;
+	text-decoration: none;
+}
+
+#footer-area a:hover {
+	color: #00AEEF;
+	text-decoration: none;
+}
+
+#main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px; /* height of your footer */
+}
+
+
+/*FORM STYLING*/
+
+.form-style-1 {
+	margin:10px auto;
+	max-width: 600px;
+	padding: 20px 12px 10px 20px;
+	text-align: left;
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: normal;
+}
+
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	outline: none;	
+	width: 100%;
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	-moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+
+.form-style-1 table {
+	width: 100%;
+	border-spacing: 5px;
+}
+
+.form-style-1 td {
+	padding: 10px;
+}
+
+.form-style-1 .field-long {
+	width: 100%;
+}
+
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{	 
+	background: #00AEEF;
+	padding: 10px 17px 12px 17px;
+	border: none;
+	color: #fff;
+	font-size: 14px;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #4691A4;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+
+/* CLIENTS LIST STYLING */
+
+#client-entry-area {
+	background: #F5FCFF;
+	
+}
+
+.client-entry {
+	text-align: left;
+	padding: 35px;
+	border-bottom: 1px solid #979797 ;	
+}
+
+.client-entry h1 {
+	font-weight: bold;
+	font-size: 14px;
+	color: #4A4A4A;
+}
+
+.client-entry h2 {	
+	font-size: 14px;
+	font-weight: normal;
+	color:  #00AEEF;
+}
+
+.entry-number {
+	font-size: 14px;
+	font-weight: bold;
+	color: #00AEEF;
+}
+
+.accepted-submit{
+	margin-left: 12%;
+    margin-bottom: 2%;
+	background-color:  #7ED321;
+	font-weight: bold;
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 20px;
+	padding: 40px;
+	width: 70%;
+}
+
+.error-submit{
+	margin-left: 12%;
+    margin-bottom: 2%;
+	width: 70%;
+	background-color:  #D0021B;
+	font-weight: bold;
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 20px;
+	padding: 40px;	
+}
+
