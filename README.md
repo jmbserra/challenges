@@ -19,4 +19,4 @@
 
 # Technologies used:
   - Html, CSS
-  - XAMPP, PHP, phpmyadmin, MySQL
+  - XAMPP, PHP, phpmyadmin, MySQL, VSCode
