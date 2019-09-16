@@ -15,7 +15,7 @@
 
 - Install XAMPP
 - Place  the "GOMA-challenge-JoseSerra" folder at "xampp/htdocs" in order to run it on the XAMPP apache server
-- run localhost/GOMAchallenge_JoseSerra/clients_list_app_public/ on your browser.
+- run localhost/GOMAchallenge_JoseSerra/clients_list_app_public/index.php on your browser.
 
 # Technologies used:
   - Html, CSS
